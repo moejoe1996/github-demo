@@ -1,4 +1,5 @@
-#  GIT COMPLETE GUIDE
+# GIT COMPLETE GUIDE
+
 # Source control?
 
     - Backup or versioning.
@@ -69,4 +70,3 @@
     - `git config --global user.name "yourname"`
     - `git config --global user.email "email@example.com"`
     - To confirm `git config --global --list`
-    
