@@ -19,7 +19,8 @@
 
 # Source Control Options
 
-    ## Two types:
+## Two types:
+
         - Centralized: Free, commercial, requires a conection to a server
         - Decentralized/ Distributed: Mercurial, git, most operations are local
 
@@ -45,14 +46,14 @@
 
 ## Basics
 
-    - `pwd`: shows your current directory
-    - `mkdir`: create a new directory
-    - `cd`: change directory
-    - `ls`: list all items in a directory
-    - `git clone <url>`: clone repository in a directory
-    - `git status`: shows the status of the current git project
-    - `echo "<some text>">>example.txt`: to create a file with text using cmd
-    - `cat file.txt`: displays contents of file
+    * `pwd`: shows your current directory
+    * `mkdir`: create a new directory
+    * `cd`: change directory
+    * `ls`: list all items in a directory
+    * `git clone <url>`: clone repository in a directory
+    * `git status`: shows the status of the current git project
+    * `echo "<some text>">>example.txt`: to create a file with text using cmd
+    * `cat file.txt`: displays contents of file
 
 ## Staging
 
