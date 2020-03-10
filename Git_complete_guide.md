@@ -52,6 +52,12 @@
     `ls`: list all items in a directory
     `git clone <url>`: clone repository in a directory
     `git status`: shows the status of the current git project
+    `git add <file>`: adds a file to be tracked by git (stages the file)
+    `git commit -m "<Messages>"`: Commits all of the files in the staging area
+    `git push origin master`: sends the commited files to the remote repository.
+    `git pull origin master`: pulls every change from the remote repository to local.
+    `git commit -am "<message>"`: to stage and commit all in one command
+    `git ls-files`: list of files that git is tracking in the current repository.
     `echo "<some text>">>example.txt`: to create a file with text using cmd
     `cat file.txt`: displays contents of file
     `unzip <path to file>`: unzips the file in current directory
