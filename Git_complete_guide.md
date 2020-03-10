@@ -46,14 +46,16 @@
 
 ## Basics
 
-    * `pwd`: shows your current directory
-    * `mkdir`: create a new directory
-    * `cd`: change directory
-    * `ls`: list all items in a directory
-    * `git clone <url>`: clone repository in a directory
-    * `git status`: shows the status of the current git project
-    * `echo "<some text>">>example.txt`: to create a file with text using cmd
-    * `cat file.txt`: displays contents of file
+    `pwd`: shows your current directory
+    `mkdir`: create a new directory
+    `cd`: change directory
+    `ls`: list all items in a directory
+    `git clone <url>`: clone repository in a directory
+    `git status`: shows the status of the current git project
+    `echo "<some text>">>example.txt`: to create a file with text using cmd
+    `cat file.txt`: displays contents of file
+    `unzip <path to file>`: unzips the file in current directory
+    `mv <path to file> <new path>`: moves/renames file
 
 ## Staging
 

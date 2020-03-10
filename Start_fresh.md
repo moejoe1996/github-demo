@@ -6,3 +6,5 @@ the command `ls -al` list all files includen hidden files.
 
 to remove a project type:
 `rm -rf <name of project>`
+
+
