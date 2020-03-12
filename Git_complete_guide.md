@@ -48,6 +48,7 @@
 
     `pwd`: shows your current directory
     `mkdir`: create a new directory
+    `mkdir -p <directories>`: creates varius folders with sub-folders
     `cd`: change directory
     `ls`: list all items in a directory
     `git clone <url>`: clone repository in a directory
@@ -78,3 +79,7 @@
     - `git config --global user.name "yourname"`
     - `git config --global user.email "email@example.com"`
     - To confirm `git config --global --list`
+
+## Recursive add
+
+    `git add .`: add all files recursively in a directory
