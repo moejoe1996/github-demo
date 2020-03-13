@@ -83,3 +83,14 @@
 ## Recursive add
 
     `git add .`: add all files recursively in a directory
+
+## Backing out changes
+
+    `git reset HEAD <file>`: to unstage the file
+    `git checkout -- <file>`: reverts the file to before the changes were made
+
+## Renaming and Moving files
+
+    `git mv <current file name> <new file name>`: to rename a file and git knows.
+    `mv <current file> <new file>`: rename file at OS level. need to be added to the git again.
+    `git add -A`: this way git will be aware.
