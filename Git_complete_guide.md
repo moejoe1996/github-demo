@@ -54,6 +54,7 @@
     `git clone <url>`: clone repository in a directory
     `git status`: shows the status of the current git project
     `git add <file>`: adds a file to be tracked by git (stages the file)
+    `git add -A`: will add and update any changes to the working directory
     `git commit -m "<Messages>"`: Commits all of the files in the staging area
     `git push origin master`: sends the commited files to the remote repository.
     `git pull origin master`: pulls every change from the remote repository to local.
@@ -94,3 +95,19 @@
     `git mv <current file name> <new file name>`: to rename a file and git knows.
     `mv <current file> <new file>`: rename file at OS level. need to be added to the git again.
     `git add -A`: this way git will be aware.
+
+## Deleting Files
+
+    `rm <file>`: removes the file from the local system
+    `git rm <file>`: removes a file that is beign tracked by git
+    `git checkout -- <file>`: to discard changes in the working directory
+
+## History
+
+    `git log`: show the commit history in inverse chronological order.
+    `git log --oneline --graph --decorate`: show a history in a ncier way
+    `git log --since="3 days ago"`: will bring the commits that happened in the last 3 days
+    `git log -- <file>`: shows the commits that involves that file
+    `git show <Commit id>`: shows the history of a commit
+
+## Git Alias
