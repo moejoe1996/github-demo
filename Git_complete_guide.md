@@ -123,3 +123,13 @@
     This file will contain a expression per line with patterns that GIT will ignore.
     This file takes regex patterns to exclude files or specific files
     `code .gitignore`: to create the file which GIT will ignore
+
+## Comparing Working directory and Git
+
+    'git diff': shows the file with the changes made to that file
+    'git difftool': launched the tool installed in the computer and shows the differences visualy
+    `git diff HEAD`: compares the working directory with the repository
+    `git diff --staged HEAD`: compares local to the last commit in the current branch.
+    `git diff -- <file path>`: limits just to show the specified file.
+    `git diff <refence 1> <reference 2>`:Compares two commits.
+    `git diff master origin/master`:Compares local master branch and the remote master branch
