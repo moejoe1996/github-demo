@@ -121,4 +121,7 @@
 ## Ignoring Unwanted files and Folders
     
     This file will contain a expression per line with patterns that GIT will ignore. 
+    This file takes regex patterns to exclude files or specific files
     `code .gitignore`: to create the file which GIT will ignore
+
+## Clean up and Push to github
