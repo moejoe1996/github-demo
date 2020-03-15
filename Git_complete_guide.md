@@ -105,9 +105,20 @@
 ## History
 
     `git log`: show the commit history in inverse chronological order.
-    `git log --oneline --graph --decorate`: show a history in a ncier way
+    `git log --oneline --graph --decorate --all`: shows history in a nice way
     `git log --since="3 days ago"`: will bring the commits that happened in the last 3 days
     `git log -- <file>`: shows the commits that involves that file
     `git show <Commit id>`: shows the history of a commit
 
 ## Git Alias
+
+    To set new aliasses. For example to set a new alias for the git log command:
+        `git config --global alias.hist "<Full command without git>"`
+
+    To modify the config file
+        `code ~/.gitconfig`: it opens the config file to make changes.
+
+## Ignoring Unwanted files and Folders
+    
+    This file will contain a expression per line with patterns that GIT will ignore. 
+    `code .gitignore`: to create the file which GIT will ignore
