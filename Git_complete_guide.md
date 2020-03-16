@@ -133,3 +133,11 @@
     `git diff -- <file path>`: limits just to show the specified file.
     `git diff <refence 1> <reference 2>`:Compares two commits.
     `git diff master origin/master`:Compares local master branch and the remote master branch
+
+## Branching Basics
+
+    `git brach -a`: list all existing branches
+    `git branch <name of branch>`: creates a new branch
+    `git checkout <name of branch>`: switch to the desired branch
+    `git branch -m <previous branch> <rename branch>`: to rename a branch
+    `git branch -d <name of branch>`: to delete a branch
