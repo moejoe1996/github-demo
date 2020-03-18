@@ -141,3 +141,10 @@
     `git checkout <name of branch>`: switch to the desired branch
     `git branch -m <previous branch> <rename branch>`: to rename a branch
     `git branch -d <name of branch>`: to delete a branch
+    `git checkout -b <new branch>`: to create and checkout new branch
+    `git merge <branch-to-merge>`: merges the branch into your current branch
+    ### Fast Foward
+
+        FAST FORWARD: when you make changes only to the branch and none to master. A fast foward merge will take place. Meaning that it will put all the changes in front of the master branch as if there was only one branch.
+
+    ### Disable Fast Foward
