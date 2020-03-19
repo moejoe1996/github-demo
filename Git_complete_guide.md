@@ -148,3 +148,17 @@
         FAST FORWARD: when you make changes only to the branch and none to master. A fast foward merge will take place. Meaning that it will put all the changes in front of the master branch as if there was only one branch.
 
     ### Disable Fast Foward
+    
+    `git merge <branch> --no-ff`: merges a branch with Fast Foward disabled
+
+# Automatic merges *Important* 
+    This is when you have multiple commits in diferent branches
+
+
+
+# Conflicts
+
+    When this happens, the git will enter in a 'merging' state. We need to fix the conflict in order to solves this. (tipically this is done manually)
+    but if you have a merge tool installed and configured `git mergetool` should help you solve the conflicts. 
+
+    
