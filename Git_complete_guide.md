@@ -240,6 +240,12 @@ If you have a visual tool configured you can use: `git difftool <tag1> <tag2>`
 
 ### Using tags with Github
 
-- `git push origin <tag name>`: Git will look for any differences, synchronize the commits if necessary, and the push the tag 
+- `git push origin <tag name>`: Git will look for any differences, synchronize the commits if necessary, and the push the tag
 - `git push origin master --tags`: will push all of the tags to the remote repository
 - `git push origin :<tag name>`: deletes the <tag name> from the remote repository
+
+# _Bonus:_ TimeTravel
+
+- `git reflog`: shows the log of commits
+- `git reset <commit reference>`: returns the state of the work that specific commit.
+- `git help <command>`: command to get help and reference.
