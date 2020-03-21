@@ -148,17 +148,26 @@
         FAST FORWARD: when you make changes only to the branch and none to master. A fast foward merge will take place. Meaning that it will put all the changes in front of the master branch as if there was only one branch.
 
     ### Disable Fast Foward
-    
+
     `git merge <branch> --no-ff`: merges a branch with Fast Foward disabled
 
-# Automatic merges *Important* 
+# Automatic merges _Important_
+
     This is when you have multiple commits in diferent branches
-
-
 
 # Conflicts
 
     When this happens, the git will enter in a 'merging' state. We need to fix the conflict in order to solves this. (tipically this is done manually)
-    but if you have a merge tool installed and configured `git mergetool` should help you solve the conflicts. 
+    but if you have a merge tool installed and configured `git mergetool` should help you solve the conflicts.
 
-    
+# Rebase
+
+    In the branch you are working on (not master) use the following command to apply the changes made on the main branch `git rebase master`
+
+    `git rebase --abort`: it aborts the rebase intended to apply
+
+    If a conflict occurs you must solved it with the mergetool or manually. One its done use the command `git rebase --continue` to continue with the rebasing stage.
+
+    the command `git fetch` is a non-destructive command that updates the references between the repository and the local repository
+
+    `git pull --rebase origin master` updates the local and remote repository with a rebase in the process
