@@ -203,3 +203,43 @@ To drop all of the stashes in the stash list use: `git stash clear`
 1. Move all the files that have been modifed to a stash.
 2. If you want to move the stash to a new branch you the command: `git stash branch <name of branch>`
    - A new branch is created, the stash is applied and dropped at the same time.
+
+# Tagging
+
+Nothing more than labels to show milestones or used for reference.
+
+To use a tag simply type: `git tag <name of tag>` This type of tag is called a lighweight tag. It's simply a marker on a particular commit.
+
+- `git tag --list`: show the list of all tags
+- `git tag --delete <name of tag>`: deletes the tag created
+
+## Annotated tags
+
+A annotated tag is similar to a lightweight tag, excep it has a little extra infromation. it usually has a somewhat commit message, but for tags.
+
+- `git tag -a <name of tag>`: tou use a annotated tag type this command
+- `git tag <name of tag> -m "<message>"`: express way of doing it.
+
+- `git show <name of tag>`: will show all the commits related to that tag
+
+_Note_: the tag will be applied to tha latest commit.
+
+## Comparing Tags
+
+To compare the differences between tag use the following command: `git diff <tag1> <tag2>`
+
+If you have a visual tool configured you can use: `git difftool <tag1> <tag2>`
+
+### Tagging a specific Commit
+
+- `git tag -a <tag name> <commit reference>`: allows you to tag a specific commit you forgot to tag or should have been tagged.
+
+### Updating an Existing Tag
+
+- `git tag -a <tag name> -f <commit reference>`: forces a new tag in the specified commit
+
+### Using tags with Github
+
+- `git push origin <tag name>`: Git will look for any differences, synchronize the commits if necessary, and the push the tag 
+- `git push origin master --tags`: will push all of the tags to the remote repository
+- `git push origin :<tag name>`: deletes the <tag name> from the remote repository
